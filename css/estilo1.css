@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #b1d4e0;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+ul.clase1{
+    list-style-type: none;
+    padding: 30px 50px 0 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    text-align: right;
+    width: 100%;
+}
+li{
+    float: right;
+}
+.formulario:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
